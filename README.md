@@ -47,5 +47,5 @@ throw new ApiException(401, "ApiKey invalid");
 
 // or call the abort method
 
-ApiJsonError.abort(401, "ApiKey invalid");a
+ApiErrorHelper.abort(401, "ApiKey invalid");a
 ```

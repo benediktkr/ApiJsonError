@@ -7,7 +7,7 @@ using System.Net;
 
 namespace ApiJsonError
 {
-    public static class ApiJsonError
+    public static class ApiErrorHelper
     {
         public static void abort(int status_code, string message)
         {
